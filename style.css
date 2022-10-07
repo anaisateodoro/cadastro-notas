@@ -1,0 +1,12 @@
+*{
+    margin: 2px;
+    font-family:'Cambria, Cochin, Georgia, Times, 'Times New Roman', serif';
+}
+
+
+fieldset {
+margin: 5px;
+border-radius: 10px;
+border-color: black;
+}
+

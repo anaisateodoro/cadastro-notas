@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Exercício do dia 05/10</title>
+</head>
+<body>
+
+    <fieldset>
+    <legend><h2>Aluno - Cadastrar Nota(s)</h2></legend>
+    <form id="register" onsubmit="return false;">
+
+      <label for="nome">Nome</label>
+      <input type="text" class="nome" required>
+      <br>
+
+      <label for="notas">Notas</label>
+      <input type="text" class="notas" required>
+      <br>
+
+      <input type="submit" value="enviar" class="enviar">
+      <br>
+    </form>
+  </fieldset>
+    <br>
+    <h2>Listagem de Notas - Alunos Cadastrados</h2>
+    <br>
+    <table border="5">
+      <thead>
+        <tr>
+          <th>Matrícula</th>
+          <th>Nome</th>
+          <th>Notas</th>
+          <th>Média</th>
+          <th>Situação</th>
+          <th>Editar|Deletar</th>
+          
+        </tr>
+   
+      </thead>
+      <tbody class="alunos"></tbody>
+    </table>
+    <script src="script.js"></script>
+
+
+</body>
+</html>
